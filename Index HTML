@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social and E-commerce Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #333;
+        }
+        .product, .blog-post {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .product button, .blog-post a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to My Website</h2>
+            <p>Your one-stop destination for social networking and e-commerce.</p>
+        </section>
+        
+        <section id="products">
+            <h2>Products</h2>
+            <div class="product">
+                <h3>Product One</h3>
+                <p>Description and price of this product.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="product">
+                <h3>Product Two</h3>
+                <p>Description and price of this product.</p>
+                <button>Order Now</button>
+            </div>
+        </section>
+        
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Blog Post One</h3>
+                <p>Summary of this blog post.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="blog-post">
+                <h3>Blog Post Two</h3>
+                <p>Summary of this blog post.</p>
+                <a href="#">Read More</a>
+            </div>
+        </section>
+        
+        <section id="profile">
+            <h2>Your Profile</h2>
+            <p>Update your personal information, view order history, and more.</p>
+        </section>
+        
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+        
+        <section id="register">
+            <h2>Register</h2>
+            <form>
+                <label for="new-username">Username:</label><br>
+                <input type="text" id="new-username" name="new-username"><br>
+                <label for="new-password">Password:</label><br>
+                <input type="password" id="new-password" name="new-password"><br>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Contact information for your website.</p>
+    </footer>
+</body>
+</html>
